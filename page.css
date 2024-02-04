@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #3498db;
+    color: white;
+}
+.buttons-left{
+    background-color: blue;
+    border-radius: 5px;
+    border: #3498db;
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 50px;
+}
+.buttons-right{
+    background-color: blue;
+    border-radius: 5px;
+    border: #3498db;
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 50px;
+}
+.buttons-left:hover{
+    background-color: darkblue;
+}
+.buttons-right:hover{
+    background-color: darkblue;
+}
+.h2{
+    position: absolute;
+    text-align: center;
+    margin: 100px;
+}
